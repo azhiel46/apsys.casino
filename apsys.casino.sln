@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apsys.casino.webapi", "apsys.casino.webapi\apsys.casino.webapi.csproj", "{5356D9ED-6B4B-40C8-BF58-3E2C5F05729B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.dominio", "01.dominio", "{24D151B6-5FFB-4C5B-B91C-35C7CC4ED2FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.data", "02.data", "{B525A44C-079A-410E-80C5-A873D8F2CB7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.services", "03.services", "{30BD0667-3CE2-4259-8C0E-BD031063E6BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apsys.casino.webapi.testing", "apsys.casino.webapi.testing\apsys.casino.webapi.testing.csproj", "{EC9C4C1A-90DF-4BDA-8CFE-49B8FEE5289D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apsys.casino.dominio", "apsys.casino.dominio\apsys.casino.dominio.csproj", "{81FEF444-2442-4042-90B7-82099DE8A39C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apsys.casino.dominio.testing", "apsys.casino.dominio.testing\apsys.casino.dominio.testing.csproj", "{B794AE8F-3B4B-4B9A-81B0-2C88639F3F52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5356D9ED-6B4B-40C8-BF58-3E2C5F05729B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5356D9ED-6B4B-40C8-BF58-3E2C5F05729B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5356D9ED-6B4B-40C8-BF58-3E2C5F05729B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5356D9ED-6B4B-40C8-BF58-3E2C5F05729B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9C4C1A-90DF-4BDA-8CFE-49B8FEE5289D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9C4C1A-90DF-4BDA-8CFE-49B8FEE5289D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9C4C1A-90DF-4BDA-8CFE-49B8FEE5289D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9C4C1A-90DF-4BDA-8CFE-49B8FEE5289D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81FEF444-2442-4042-90B7-82099DE8A39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FEF444-2442-4042-90B7-82099DE8A39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FEF444-2442-4042-90B7-82099DE8A39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FEF444-2442-4042-90B7-82099DE8A39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B794AE8F-3B4B-4B9A-81B0-2C88639F3F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B794AE8F-3B4B-4B9A-81B0-2C88639F3F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B794AE8F-3B4B-4B9A-81B0-2C88639F3F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B794AE8F-3B4B-4B9A-81B0-2C88639F3F52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81FEF444-2442-4042-90B7-82099DE8A39C} = {24D151B6-5FFB-4C5B-B91C-35C7CC4ED2FB}
+		{B794AE8F-3B4B-4B9A-81B0-2C88639F3F52} = {24D151B6-5FFB-4C5B-B91C-35C7CC4ED2FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40BBBF75-51B6-4C2E-995F-989DFEC925B9}
+	EndGlobalSection
+EndGlobal
